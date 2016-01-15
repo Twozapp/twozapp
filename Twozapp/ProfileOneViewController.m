@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // push
     [[self appDelegate].locationManager startUpdatingLocation];
     [self performSelector:@selector(stopLocationFetching) withObject:nil afterDelay:5.0];
     self.navigationController.navigationBar.userInteractionEnabled = NO;
